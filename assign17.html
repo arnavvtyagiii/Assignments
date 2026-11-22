@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 17</title>
+</head>
+<body>
+  <form action="submit.php" method="post">
+    <p>
+      <input type="text" name="fullname" placeholder="Full Name" required>
+    </p>
+    <p>
+      <input type="email" name="email" placeholder="Email" required>
+    </p>
+    <p>
+      <input type="tel" name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" title="Enter exactly 10 digits" required>
+    </p>
+    <p>
+      <input type="password" name="password" placeholder="Password" minlength="6" required>
+    </p>
+    <p>
+      <input type="number" name="age" placeholder="Age" min="17" max="30" required>
+    </p>
+    <p>
+      <input type="submit" value="Register">
+    </p>
+  </form>
+</body>
+</html>
